@@ -44,10 +44,14 @@ One Day workshop on understanding HTML and CSS. Learn to run a container, inspec
     code .
     ```
  - Bring up the Sample Blog Container
-    ```
-    sudo docker-compose -f sample-blog/docker-compose.yaml up
+   ```
+   sudo docker-compose -f sample-blog/docker-compose.yaml up
 
-    ```
+                           or
+   
+   sudo docker compose -f sample-blog/docker-compose.yaml up
+
+   ```
 
  - open up http://localhost:8080/ in your browse
 
