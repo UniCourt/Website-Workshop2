@@ -33,7 +33,7 @@ One Day workshop on understanding HTML and CSS. Learn to run a container, inspec
     ```
     cd workshop
     ```
- - First fork the repo and clone Website-Workshop2 repo && go inside Webiste-Workshop2 folder
+ - First fork the repo and clone Website-Workshop2 repo & go inside Webiste-Workshop2 folder
     ``` 
     git clone git@github.com:{yourName}/Website-Workshop2.git
     cd Website-Workshop2
