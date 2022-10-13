@@ -1,6 +1,6 @@
 # Introduction to HTML and CSS - Day 2
 
-One Day workshop on understanding HTML and CSS. Learn to run a container, inspect a container and understand the isolation of processes. Create a Dockerfile, and build an image from a Dockerfile. Learn how to mount application code using volume mount. Learn how to make your app data persistent across multiple containers. Learn how to create multiple containers from a single image, run multiple containers using docker-compose, and more.
+One Day workshop on understanding HTML and CSS. Learn how to structure HTML elements. Learn how to use CSS to apply style to HTML elements. Building your first website. Learn how to create layouts using CSS flexbox.
 
 ## Prerequisites
  - Machine/VM with linux
@@ -65,7 +65,7 @@ One Day workshop on understanding HTML and CSS. Learn to run a container, inspec
 
 | Time          | Topics
 |---------------|-------
-| 09:00 - 09:30 |  [`Revisit Docker Container`](app_nginx.md)
+| 09:00 - 09:30 |  [`Revisit Docker Container`](docker_compose.md)
 | 09:30 - 10:45 |  [`Introduction to HTML`](html_intro.md)
 | 10:45 - 11:00 |  [`Break`]
 | 11:00 - 01:00 |  [`Introduction to CSS`](css_intro.md)
