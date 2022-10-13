@@ -2,6 +2,7 @@
 - A reset stylesheet (or CSS reset) is a collection of CSS rules used to clear the browser's default formatting of HTML elements, removing potential inconsistencies between different browsers. It also prevents developers from unknowingly relying on the browser default styling and force them to be explicit about the styling they want to apply on the page.
 
 ```css
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -56,10 +57,10 @@ a {
 }
 ```
 
-# Body - <body>
-The <body> tag defines the document's body.
-The <body> element contains all the contents of an HTML document, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
-**Note:** There can only be one <body> element in an HTML document.
+# Body tag
+The `<body>` tag defines the document's body.
+The `<body>` element contains all the contents of an HTML document, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+**Note:** There can only be one `<body>` element in an HTML document.
 ### Example:
 ```html
 <!DOCTYPE html>
@@ -83,16 +84,16 @@ body{
 }
 ```
 
-### <header> tag
-The <header> element represents a container for introductory content or a set of navigational links.
+### header tag
+The `<header>` element represents a container for introductory content or a set of navigational links.
 ```html
 <header>
 
 </header>
 ```
 
-### <nav> tag
-The <nav> tag defines a set of navigation links.
+### nav tag
+The `<nav>` tag defines a set of navigation links.
 Notice that NOT all links of a document should be inside a <nav> element. The <nav> element is intended only for major blocks of navigation links.
 ```html
 <nav>
@@ -251,7 +252,7 @@ Insert this code inside the body tag
 ```
 
 # Section tag
-The <section> tag defines a section in a document.
+The `<section>` tag defines a section in a document.
 ```html
 <section id="primary">
 
@@ -268,7 +269,7 @@ The <section> tag defines a section in a document.
 ```
 
 # Article tag
-The <article> tag specifies independent, self-contained content.
+The `<article>` tag specifies independent, self-contained content.
 An article should make sense on its own and it should be possible to distribute it independently from the rest of the site.
 ### Example: 
 ```html
@@ -329,10 +330,10 @@ article .post-meta .wrap-posted-on{
 }
 ```
 
-# Sidebar - <aside> tag
-The <aside> tag defines some content aside from the content it is placed in.
+# Sidebar - aside tag
+The `<aside>` tag defines some content aside from the content it is placed in.
 The aside content should be indirectly related to the surrounding content.
-The <aside> content is often placed as a sidebar in a document.
+The `<aside>` content is often placed as a sidebar in a document.
 ### Example
 ```html
 <aside id="secondary" class="column">
@@ -389,8 +390,8 @@ aside .widget .heading{
 ```
 
 # Footer
-The <footer> tag defines a footer for a document or section.
-**A <footer> element typically contains:**
+The `<footer>` tag defines a footer for a document or section.
+**A `<footer>` element typically contains:**
 - authorship information
 - copyright information
 - contact information
