@@ -69,7 +69,7 @@ Build your own website with our one-day workshop on understanding HTML and CSS. 
 
 | Time          | Topics
 |---------------|-------
-| 09:00 - 09:30 |  [`Revisit Docker Container`](docker_compose.md)
+| 09:00 - 09:30 |  [`Revisit Docker Commands`](docker_commands.md)
 | 09:30 - 10:45 |  [`Introduction to HTML`](html_intro.md)
 | 10:45 - 11:00 |  [`Break`]
 | 11:00 - 01:00 |  [`Introduction to CSS`](css_intro.md)
