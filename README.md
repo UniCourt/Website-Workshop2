@@ -1,6 +1,10 @@
 # Introduction to HTML and CSS - Day 2
 
-One Day workshop on understanding HTML and CSS. Learn how to structure HTML elements. Learn how to use CSS to apply style to HTML elements. Building your first website. Learn how to create layouts using CSS flexbox.
+Build your own website with our one-day workshop on understanding HTML and CSS. Learn how to,
+   - Structure HTML elements. 
+   - Use CSS to apply style to HTML elements. 
+   - Create layouts using CSS flexbox.
+   - Build your first website.
 
 ## Prerequisites
  - Machine/VM with linux
@@ -43,13 +47,13 @@ One Day workshop on understanding HTML and CSS. Learn how to structure HTML elem
     cd ~/workshop/Website-Workshop2
     code .
     ```
- - Bring up the Sample Blog Container
+ - Bring up the Simple Blog Container
    ```
-   sudo docker-compose -f sample-blog/docker-compose.yaml up
+   sudo docker-compose -f simple-blog/docker-compose.yaml up
 
                            or
    
-   sudo docker compose -f sample-blog/docker-compose.yaml up
+   sudo docker compose -f simple-blog/docker-compose.yaml up
 
    ```
 
@@ -70,6 +74,6 @@ One Day workshop on understanding HTML and CSS. Learn how to structure HTML elem
 | 10:45 - 11:00 |  [`Break`]
 | 11:00 - 01:00 |  [`Introduction to CSS`](css_intro.md)
 | 01:00 - 02:00 |  [`Break`]
-| 02:00 - 05:00 |  [`Building Blog Website`]
+| 02:00 - 05:00 |  [`Building Blog Website`](blog_html_css.md)
 | 05:00 - 05:15 |  [`Q & A`]
 | 05:15 - 05:30 |  [`Wrapping Up`]
