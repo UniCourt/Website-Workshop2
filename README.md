@@ -1,4 +1,4 @@
-# Introduction to HTML and CSS - Day 2
+# Introduction to HTML and CSS - Workshop 2
 
 Build your own website with our one-day workshop on understanding HTML and CSS. Learn how to,
    - Structure HTML elements. 
