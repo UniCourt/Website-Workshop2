@@ -1,3 +1,68 @@
+# Docker Commands
+
+### 1.) docker –version
+  - This command is used to get the currently installed version of docker
+
+  ![Docker Version](img/docker_version.png)
+
+### 2.) docker pull
+  - Usage: docker pull `<image name>`
+    - This command is used to pull images from the docker repository(hub.docker.com)
+
+  ![Docker Version](img/docker_version.png)
+
+### 3.) docker run
+  - Usage: docker run -it -d `<image name>`
+    - This command is used to create a container from an image.
+
+  ![Docker Run](img/docker_run.png)
+
+### 4.) docker ps
+  - This command is used to list the running containers.
+
+  ![Docker Run](img/docker_ps.png)
+
+### 5.) docker exec
+  - Usage: docker exec -it `<container id>` bash
+    - This command is used to access the running container.
+
+  ![Docker Run](img/docker_exec.png)
+
+### 6.) docker stop
+  - Usage: docker kill `<container id>`
+    - This command stops a running container.
+
+  ![Docker Run](img/docker_stop.png)
+
+### 7.) docker kill
+  - Usage: docker kill `<container id>`
+    - This command kills the container by stopping its execution immediately. The difference between ‘docker kill’ and ‘docker stop’ is that ‘docker stop’ gives the container time to shutdown gracefully, in situations when it is taking too much time for getting the container to stop, one can opt to kill it.
+
+  ![Docker Run](img/docker_kill.png)
+
+### 8.) docker images
+  - This command lists all the locally stored docker images.
+
+  ![Docker Run](img/docker_images.png)
+
+### 9.) docker rm
+  - Usage: docker rm `<container id>`
+    - This command is used to delete a stopped container.
+
+  ![Docker Run](img/docker_rm.png)
+
+### 10.) docker rmi
+  - Usage: docker rmi `<image-id>`
+    - This command is used to delete an image from local storage.
+
+  ![Docker Run](img/docker_rm_image.png)
+
+### 11.) docker build
+  - Usage: docker build `<path to docker file>`
+    - This command is used to build an image from a specified docker file.
+
+  ![Docker Run](img/docker_build.png)
+
 ### What is Docker Compose
 
 Developing applications using Docker can become challenging when juggling multiple services and containers.<br>
