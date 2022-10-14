@@ -1,3 +1,16 @@
+# Create CSS file and link it to the Web page
+## # create dir
+Create a directory name `css` under `simple-blog/src`
+create a file `style.css` under `simple-blog/src/css`
+### Link the css file to the web page
+Add this code inside the head tags of both the web pages
+```html
+<head>
+...
+<link rel="stylesheet" href="css/style.css" />
+...
+</head>
+```
 # Reset CSS
 - A reset stylesheet (or CSS reset) is a collection of CSS rules used to clear the browser's default formatting of HTML elements, removing potential inconsistencies between different browsers. It also prevents developers from unknowingly relying on the browser default styling and force them to be explicit about the styling they want to apply on the page.
 
@@ -68,6 +81,7 @@ The `<body>` element contains all the contents of an HTML document, such as head
     <head>
         <meta charset="utf-8">
         <title>HTML & CSS Learning Workshop Blog</title>
+        <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
 		
@@ -337,7 +351,7 @@ The `<aside>` content is often placed as a sidebar in a document.
 ### Example
 ```html
 <aside id="secondary" class="column">
-	<div id="recent-posts" class="widget">
+	<div id="recent-posts">
 		<div class="widget-content">
 			<h3 class="heading">Recent Posts</h3>
 			<ul>
@@ -372,7 +386,7 @@ aside{
     padding-bottom: 32px;
     margin-bottom: 32px;
 }
-aside .widget .heading{
+aside .heading{
     font-size: 1.25rem;
     color: #205c9a;
     margin-bottom: 16px;
