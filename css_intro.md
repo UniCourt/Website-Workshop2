@@ -46,3 +46,99 @@ CSS (Cascading Style Sheets) is used to style and lay out web pages — for exam
         - Space can be distributed inside the items, so they become bigger and smaller according to the space available in their parent.
     Space can be distributed around the items and flex lines in a wrapped layout, using the Box Alignment properties.
     The items themselves can be aligned on the cross axis.
+
+
+    - **CSS Media Queries**: Media queries can modify the appearance (and even behavior) or a website or app based on a matched set of conditions about the user’s device, browser or system settings. CSS Media queries are a way to target browser by certain characteristics, features, and user preferences, then apply styles or run other code based on those things. Perhaps the most common media queries in the world are those that target particular viewport ranges and apply custom styles, which birthed the whole idea of responsive design
+
+        ```css
+        <style>
+        /* When the browser is at least 600px and above */
+            @media screen and (min-width: 600px) {
+                .element {
+                    /* Apply some styles */
+                }
+            }
+
+            /* Viewports between 320px and 480px wide */
+            @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+                .card {
+                    background: #bada55;
+                }
+            }
+        </style>
+        ```
+        - Anatomy of a Media Query
+
+        ![CSS Anatomy](img/media-query-anatomy.webp)
+
+        <details>
+        <summary>@media</summary>
+        
+        The first ingredient in a media query recipe is the @media that a site is viewed with, what features that media type supports, and operators that can be combined to mix and match simple and complex conditions alike.
+
+        ### Some Code
+        ```css
+            @media [media-type] ([media-feature]) {
+                /* Styles! */
+            }
+        ```
+        </details>
+
+        <details>
+        <summary>Media types</summary>
+        
+        What type of media are we trying to target? In many (if not most) cases, you’ll see a screen value used here, which makes sense since many of the media types we’re trying to match are devices with screens attached to them.
+
+        But screens aren’t the only type of media we can target, of course. We have a few, including:
+
+        - **all**: Matches all devices
+        - **print**: Matches documents that are viewed in a print preview or any media that breaks the content up into pages intended to print.
+        - **screen**: Matches devices with a screen
+
+        ### Some Code
+        ```css
+            @media screen {
+                /* Styles! */
+            }
+        ```
+        </details>
+        
+        
+        <details>
+        <summary>Media features</summary>
+        
+        Once we define the type of media we’re trying to match, we can start defining what features we are trying to match it to. We’ve looked at a lot of examples that match screens to width, where screen is the type and both min-width and max-width are features with specific values.
+
+        </details>
+
+        <details>
+        <summary>Operators</summary>
+        
+        Media queries support logical operators like many programming languages so that we can match media types based on certain conditions. The @media rule is itself a logical operator that is basically stating that “if” the following types and features are matches, then do some stuff.
+
+
+        ### and (operator): 
+        - We can use the and operator if we want to target screens within a range of widths:
+
+        ```css
+        /* Matches screen between 320px AND 768px */
+            @media screen (min-width: 320px) and (max-width: 768px) {
+                .element {
+                    /* Styles! */
+                }
+            }
+        ```
+
+        ### or (or comma-separted): 
+        - We can also comma-separate features as a way of using an or operator to match different ones:
+
+        ```css
+            /* 
+            Matches screens where either the user prefers dark mode or the screen is at least 1200px wide */
+            @media screen (prefers-color-scheme: dark), (min-width 1200px) {
+                .element {
+                    /* Styles! */
+                }
+            }
+        ```
+        </details>
